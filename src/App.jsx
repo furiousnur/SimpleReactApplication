@@ -3,7 +3,7 @@ import Content from "./components/Content.jsx";
 import Footer from "./components/layouts/Footer.jsx";
 
 function App() {
-    const pageTitle = "Home Page";
+    const pageTitle = "Simple React Application";
   return (
     <>
         <Header title={pageTitle}/>
