@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import SpecialProject from "./SpecialProject.jsx";
+import CountdownTimer from "./CountdownTimer.jsx";
 
 const ErrorStyles = styled.p`
   color: red;
@@ -30,6 +32,8 @@ const Content = () => {
             <button onClick={handleButtonClick}>Display Text</button>
             <ErrorStyles>{errorMessage}</ErrorStyles>
             {displayedText && <p style={{ textAlign: 'center', color: "green", fontSize: "18px" }}>{displayedText}</p>}
+            <SpecialProject />
+            <CountdownTimer />
         </div>
     );
 };
